@@ -6,7 +6,7 @@ module.exports.config = {
   aliases: ['info'],
   description: "Beginner's guide",
   usage: "Help [page] or [command]",
-  credits: 'Develeoper',
+  credits: 'TCG',
 };
 module.exports.run = async function({
   api,
