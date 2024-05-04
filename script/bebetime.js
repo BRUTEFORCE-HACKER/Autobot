@@ -2,11 +2,8 @@ module.exports.config = {
     name: "Bebetime",
     hasPrefix: true,
     version: "1.0.0",
-    hasPermssion: 2,
+    role: 2,
     credits: "... - Long LTD",
-    description: "War nÃ¡t cÃ¡i boxchat",
-    commandCategory: "group",
-    usages: "bbtime??",
     cooldowns: 5,
     dependencies: {
         "fs-extra": "",
