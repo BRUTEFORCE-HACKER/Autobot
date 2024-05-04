@@ -5,7 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Jasper Wu",
   description: "noprefix",
-  usePrefix: false,
+  hasPrefix: false,
   commandCategory: "Noprefix",
   usages: "noprefix",
   cooldowns: 6,
