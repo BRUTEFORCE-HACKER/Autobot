@@ -1,14 +1,14 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
   name: "joel",
-  version: "1.0.4",
-  hasPermssion: 0,
-  credits: "Jasper Wu",
-  description: "noprefix",
+  version: "1.0.0",
+  role: 0,
   hasPrefix: false,
-  commandCategory: "Noprefix",
-  usages: "noprefix",
-  cooldowns: 6,
+  aliases: [''],
+  usage: 'Unsent [reply]',
+  description: "Joel ",
+  credits: 'TCG',
+  cooldown: 0
 };
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
   var { threadID, messageID, reason } = event;
