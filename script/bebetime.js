@@ -1,6 +1,6 @@
 module.exports.config = {
     name: "Bebetime",
-  usePrefix: true,
+    hasPrefix: true,
     version: "1.0.0",
     hasPermssion: 2,
     credits: "... - Long LTD",
