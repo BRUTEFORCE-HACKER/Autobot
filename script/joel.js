@@ -1,4 +1,3 @@
-const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
   name: "joel",
   version: "1.0.0",
